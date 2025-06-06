@@ -1,0 +1,386 @@
+@import url(./reSetCss.css);
+@import url(./layout.css);
+
+.infor-date-text,
+.infor-text,
+.card-date-text,
+.card-infor-text,
+.nav-page,
+.contact-email,
+.tag-link {
+    font-weight: 500;
+}
+
+.banner {
+    display: flex;
+}
+
+.left-img, .right-img {
+    width: 50%;
+}
+
+.left-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.right-img {
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    background-image: url(/images/blog/Hero-h-r.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.title-box {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.title-h1, .title-text {
+    font-weight: 900;
+    font-size: 120px;
+    color: rgba(0, 39, 213, 1);
+}
+
+.title-text, .infor-title,
+.card-infor-title {
+    font-weight: 700;
+    font-size: 28px;
+}
+
+/* 最新文章 */
+
+.news-box {
+    display: flex;
+    gap: 24px;
+    border: 1px solid rgba(108, 117, 125, 1);
+}
+
+.left-box {
+    width: 50%;
+}
+
+.left-box img {
+    width: 100%; 
+    height: 100%;    
+    object-fit: cover;
+}
+
+.right-box {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.infor-box {
+    max-width: 636px;
+    padding-right: 24px;
+}
+
+.infor-date {
+    margin-bottom: 4px;
+}
+
+.infor-content {
+    margin-bottom: 16px;
+}
+
+.infor-content-link, .card-content-link {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.tag-link {
+    font-size: 24px;
+    color: rgba(0, 39, 213, 1);
+}
+
+.infor-news, .card-hot {
+    padding: 6px 12px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 40px;
+    background: rgba(0, 39, 213, 1);
+}
+
+.infor-title, .card-infor-title {
+    margin: 8px 0;
+}
+
+.line-clamp-show-two {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;   
+}
+
+.infor-btn, .card-btn {
+    padding: 8px 16px;
+    font-weight: 500;
+    color: rgba(75, 75, 75, 1);
+    border-radius: 40px;
+    border: 1px solid rgba(0, 0, 0, 1);
+    background: rgba(255, 255, 255, 1);
+}
+
+.infor-btn:hover, .card-btn:hover {
+    color: rgba(255, 255, 255, 1);
+    background: rgba(0, 0, 0, 1);
+}
+
+/* searchbar */
+
+.features-one {
+    max-width: 1296px;
+    margin: 0 auto;
+    padding: 80px 5vw;
+}
+
+.search-box {
+    padding: 16px 0px 16px 16px;
+    max-width: 416px;
+    display: flex;
+    gap: 8px;
+    border-radius: 40px;
+    border: 1px solid rgba(75, 75, 75, 1);
+}
+
+.fa-magnifying-glass {
+    font-size: 24px;
+    color: rgba(75, 75, 75, 1);
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+input[type="text" i] {
+    padding-block: 0px;
+    padding-inline: 0px;
+}
+
+input::placeholder {
+    font-weight: 500;
+    color: rgba(75, 75, 75, 1);
+}
+
+/* card */
+
+.card-layout {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.card {
+    width: calc( (100% - 48px) / 3);
+    margin: 40px 0px;
+}
+
+.card-date {
+    margin-top: 16px;
+    margin-bottom: 4px;
+}
+
+.card-infor-title {
+    margin-bottom: 8px;
+}
+
+.card-infor-text {
+    color: rgba(75, 75, 75, 1);
+}
+
+.card-btn {
+    margin-top: 16px;
+}
+
+/* navigation */
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation {
+    padding: 8px 20px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    background: rgba(255, 255, 255, 1);
+}
+
+.nav-page {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-page, .fa-chevron-left,
+.fa-chevron-right {
+    color: rgba(75, 75, 75, 1);
+}
+
+.nav-page:hover, .fa-chevron-left:hover, 
+.fa-chevron-right:hover {
+    color: rgba(255, 255, 255, 1);
+    background: rgba(0, 39, 213, 1);
+}
+
+/* contact */
+
+.features-two {
+    margin-top: 80px;
+    padding: 80px 0;
+    border-top: 1px solid rgba(0, 0, 0, 1);
+}
+
+.contact {
+    max-width: 1296px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-email {
+    font-size: 32px;
+}
+
+.contact-icon-box {
+    display: flex;
+    gap: 4px;
+}
+
+.contact-icon {
+    width: 44px;
+    height: 44px;
+    max-width: 44px;
+    max-height: 44px;
+
+}
+
+@media(max-width: 992px) {
+    .right-img {
+        padding-left: 0;
+        justify-content: center;
+    }
+
+    .infor-box {
+        padding: 24px 24px 24px 0;
+    }
+}
+
+@media(max-width: 768px) {
+    .title-h1 {
+        font-size: calc(120px * 0.75);
+    }
+
+    .title-text,
+    .infor-title,
+    .card-infor-title {
+        font-size: calc(28px * 0.75);
+    }
+
+    .features-two {
+        display: none;
+    }
+
+    .footer-nav {
+        margin-bottom: 64px;
+    }
+}
+
+@media(max-width: 576px) {
+    .container {
+        overflow-x: hidden;
+    }
+    
+    .banner, .news-box {
+        flex-direction: column;
+    }
+
+    .left-img, .right-img, .left-box {
+        width: 100%;   
+    }
+
+    .left-img {
+        position: relative;
+        height: 375px;
+        overflow: hidden;
+    }
+
+    .left-img img {
+        height: 100%;
+        object-position: 95% center;
+    }
+
+    .title-box {
+        padding: 24px;
+    }
+
+    .title-h1 {
+        font-size: 52px;
+    }
+
+    .title-text {
+        font-size: 28px;
+    }
+
+    .left-box {
+        position: relative;
+        padding: 267.5px 0;
+        overflow: hidden;
+    }
+
+    .left-box img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .features-one {
+        padding-top: 64px;
+        padding-bottom: 40px;
+    }
+
+    .infor-box {
+        padding: 48px 12px;
+    }
+
+    .search-box {
+        margin-bottom: 32px;
+    }
+
+    .card {
+        width: 100%;
+        margin: 4px 0;
+    }
+
+    .title-text,
+    .infor-title,
+    .card-infor-title {
+        font-size: 28px;
+    }
+
+    .card-hot-letter-space {
+        letter-spacing: -2px;
+    }
+
+    footer { 
+        border-top: 1px solid rgba(108, 117, 125, 1)
+    }
+}
